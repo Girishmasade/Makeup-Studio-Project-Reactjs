@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
             <img
               src={personalizedCare}
               alt="Personalized Care"
-              className="w-3/4 md:w-2/3"
+              className="w-4/4 md:w-2/3"
             />
           </div>
           <div className="md:w-1/2 mt-6 md:mt-0 md:pl-10">
@@ -85,7 +85,7 @@ const WhyChooseUs = () => {
             <img
               src={ExperiencedProfessionals}
               alt="Experienced Professionals"
-              className="w-3/4 md:w-2/3"
+              className="w-4/4 md:w-2/3"
             />
           </div>
         </div>
@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
             <img
               src={PremiuProducts}
               alt="Premium Products"
-              className="w-3/4 md:w-2/3"
+              className="w-4/4 md:w-2/3"
             />
           </div>
           <div className="md:w-1/2 mt-6 md:mt-0 md:pl-10">
