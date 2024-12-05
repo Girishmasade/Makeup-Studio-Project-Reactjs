@@ -15,11 +15,6 @@ Image Handling: Efficient image handling with custom backgrounds and illustratio
 Getting Started 🔧
 Follow these steps to get a local copy up and running:
 
-Clone the Repository:
-
-bash
-git clone https://github.com/yourusername/makeup-studio-reactjs.git
-cd makeup-studio-reactjs
 Install Dependencies:
 
 bash
