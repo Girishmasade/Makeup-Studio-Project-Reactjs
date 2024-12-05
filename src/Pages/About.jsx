@@ -3,8 +3,6 @@ import ourMission from "../assets/Images/mission.jpg";
 import aWoenDoingMakeup from "../assets/Images/women.jpg";
 import OurStory from "../assets/Images/Our Story.jpg";
 import ReviewsCard from "../Components/ReviewsCard";
-import cardImage1 from "../assets/Images/card image1.jpg";
-import starrating from "../assets/Images/5starrating.png";
 
 const About = () => {
   return (

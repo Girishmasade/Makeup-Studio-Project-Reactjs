@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="flex flex-col-reverse md:flex-row items-center md:items-start">
-          <div className="md:w-1/2 mt-6 md:mt-0 md:pr-10">
+          <div className="md:w-1/2 mt-6 md:pl-32 md:mt-0 md:pr-10">
             <h2 className="text-xl font-bold text-pink-800 mb-4">
               Personalized Care
             </h2>

@@ -4,8 +4,9 @@ import { services } from "../utils/Services";
 
 const OurServices = () => {
   return (
-    <div className="md:p-20">
-      <h1 className="text-center text-4xl pt-10 font-bold text-pink-600">
+    <div className="md:p-20 bg-pink-50">
+    <div className="">
+        <h1 className="text-center text-4xl pt-10 font-bold text-pink-600">
         Our Special Services
       </h1>
       <p className="text-center sm:w-[50%] w-[90%] md:pb-20 pt-4 mx-auto text-gray-700">
@@ -13,6 +14,7 @@ const OurServices = () => {
         services to rejuvenate your mind, body, and spirit. Explore our
         carefully curated treatments below:
       </p>
+    </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
         {services.map((item) => {

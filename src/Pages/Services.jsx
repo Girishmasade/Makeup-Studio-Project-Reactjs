@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div>
       <OurServices/>
-     <div className="md:p-20 md:pt-0">
+     <div className="md:p-20 md:pt-0 bg-pink-50">
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
         {ourServices.map((item) => {
           return (

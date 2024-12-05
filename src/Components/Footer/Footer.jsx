@@ -9,18 +9,18 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-between flex-wrap gap-2 bg-gray-200">
+    <div className="flex flex-col justify-between flex-wrap gap-2 bg-gray-200 md:h-[20rem] md:pt-6">
       <div className="grid grid-rows-1 md:grid-cols-4 pr-[4%] pl-[8%]">
         <div className="flex flex-col">
           <img src={Logo} alt="Logo" className="w-32 relative right-[5%]" />
-          <p>
+          <p className="text-lg">
             Relax, rejuvenate, and rediscover your glow with our luxurious
             treatments.
           </p>
         </div>
 
-        <div className="md:text-center sm:text-start">
-          <h3 className="pt-4 font-semibold pb-2 text-pink-700">Quick Links</h3>
+        <div className="md:pl-32 sm:text-start">
+          <h3 className="pt-4 font-semibold pb-2 text-lg text-pink-700">Quick Links</h3>
           <ul className="space-y-2 text-lg">
             <li>
               <a href="/home" className="hover:text-gray-600">
@@ -45,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="pt-5">
+        <div className="md:pt-3 pt-5">
           <h3 className="text-lg font-semibold mb-4 text-pink-700">
             Connect With Us
           </h3>
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-5">
+        <div className="md:pt-3 pt-5">
           <h3 className="text-lg font-semibold mb-2 text-pink-700">
             Our Location
           </h3>

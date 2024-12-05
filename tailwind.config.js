@@ -9,9 +9,9 @@ export default {
       backgroundImage: { 
         'custom-pattern': "url('/public/bg.jpg')", 
          'about-us': "url('/public/Aboutus.jpg')",
-         'fragrance': "URL('/public/bg4.jpg')"
+         'fragrance': "url('/public/bg4.jpg')",
+         'servicesBg': "url('/public/bg5.jpg')"
       },
-      // backgroundImage: { 'about-us': "url('/public/Aboutus.jpg')", },
     },
   },
   plugins: [],
