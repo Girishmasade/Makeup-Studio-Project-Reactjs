@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -6,7 +7,7 @@ const Navbar = () => {
     <nav className="p-2 border-2 border-gray-300 rounded">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="flex items-center text-black font-bold text-xl">
-         <a href="/"> <img src="./Logo.png" alt="Logo" className='w-20'/></a>
+         <Link to="/"> <img src="./Logo.png" alt="Logo" className='w-20'/></Link>
         </div>
         <div className="block lg:hidden">
           <button
@@ -36,24 +37,24 @@ const Navbar = () => {
         >
           <ul className="lg:flex lg:space-x-8 lg:pb-4 text-pink-800 font-semibold text-xl">
             <li>
-              <a href="/" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
+              <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
+              <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
+              <Link to="/services" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
+              <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 hover:underline pt-2">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

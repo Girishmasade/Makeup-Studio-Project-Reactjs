@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Errorpage from "../Pages/Errorpage";
@@ -8,15 +8,13 @@ import Contact from "../Pages/Contact";
 
 const Routers = () => {
   return (
-    <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/services" element={<Services />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="*" element={<Errorpage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Errorpage />} />
       </Routes>
-    </Router>
   );
 };
 
