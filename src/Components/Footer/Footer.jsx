@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "/Logo.png";
 import {
   FaInstagram,
@@ -23,24 +24,24 @@ const Footer = () => {
           <h3 className="pt-4 font-semibold pb-2 text-lg text-pink-700">Quick Links</h3>
           <ul className="space-y-2 text-lg">
             <li>
-              <a href="/home" className="hover:text-gray-600">
+              <Link to="/home" className="hover:text-gray-600">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-gray-600">
+              <Link to="/about" className="hover:text-gray-600">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services" className="hover:text-gray-600">
+              <Link to="/services" className="hover:text-gray-600">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-gray-600">
+              <Link to="/contact" className="hover:text-gray-600">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
